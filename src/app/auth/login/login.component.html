@@ -1,0 +1,25 @@
+<div class="login-container p-4">
+  <h2 class="text-lg font-bold mb-4">Iniciar Sesión</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <div class="mb-4">
+      <label for="username" class="block text-sm font-medium">Nombre de usuario:</label>
+      <input id="username" formControlName="username" required 
+             class="mt-1 block w-full p-2 border border-gray-300 rounded" />
+      <div *ngIf="loginForm.get('username').invalid && loginForm.get('username').touched" class="text-red-500">
+        Nombre de usuario es requerido.
+      </div>
+    </div>
+    <div class="mb-4">
+      <label for="password" class="block text-sm font-medium">Contraseña:</label>
+      <input type="password" id="password" formControlName="password" required 
+             class="mt-1 block w-full p-2 border border-gray-300 rounded" />
+      <div *ngIf="loginForm.get('password').invalid && loginForm.get('password').touched" class="text-red-500">
+        La contraseña es requerida.
+      </div>
+    </div>
+    <button type="submit" [disabled]="loginForm.invalid" 
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Iniciar Sesión
+    </button>
+  </form>
+</div>
