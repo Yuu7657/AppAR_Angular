@@ -1,27 +1,100 @@
-# AppARAngular
+# 🧭 AppAR Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Aplicación desarrollada en **Angular** orientada a experiencias web interactivas y visuales, ideal como base para integrar **realidad aumentada (AR)**, **componentes dinámicos** y **Angular Material**.  
+Este proyecto forma parte de la iniciativa **AppAR**, enfocada en construir entornos modernos y modulares usando las mejores prácticas del ecosistema Angular.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Descripción general
 
-## Code scaffolding
+**AppAR_Angular** es una aplicación modular que implementa:
+- 🌐 Arquitectura Angular moderna con estructura limpia (`src/app`).
+- 🎨 Estilos basados en **Material Design** con tipografía Roboto e íconos vectoriales.
+- ⚙️ Configuración adaptable para expandirse hacia **PWA**, **servicios API** o integración con bibliotecas de **Realidad Aumentada** (como AR.js o Three.js).
+- 🧩 Código optimizado para escalabilidad y mantenibilidad.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🧰 Tecnologías utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+| Tecnología | Descripción |
+|-------------|-------------|
+| **Framework:** | Angular |
+| **Lenguaje:** | TypeScript |
+| **UI Framework:** | Angular Material |
+| **Estilos:** | SCSS / Material Design |
+| **Herramientas:** | Node.js, npm |
+| **Compatibilidad:** | Angular CLI 17+ |
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧱 Estructura del proyecto
+AppAR_Angular/
+│
+├── src/
+│ ├── app/ → Componentes principales de la aplicación
+│ ├── assets/ → Recursos estáticos (imágenes, modelos, etc.)
+│ ├── environments/ → Configuración de entornos
+│ ├── index.html → Archivo raíz del frontend
+│ └── styles.scss → Estilos globales
+│
+├── angular.json → Configuración del CLI Angular
+├── package.json → Dependencias y scripts
+├── tsconfig.json → Configuración de TypeScript
+└── README.md
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ⚙️ Instalación y ejecución
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Clona el repositorio y ejecuta los siguientes comandos:
+
+```bash
+git clone https://github.com/Yuu7657/AppAR_Angular.git
+cd AppAR_Angular
+npm install
+ng serve
+
+Luego abre tu navegador en
+👉 http://localhost:4200
+
+💡 Scripts disponibles
+Comando	Acción
+ng serve	Inicia el servidor local de desarrollo
+ng build	Compila la aplicación para producción
+ng test	Ejecuta pruebas unitarias
+ng lint	Analiza el código para mantener buenas prácticas
+🌈 Estilo visual
+
+Este proyecto utiliza fuentes y recursos de Google:
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+Incluye soporte de Material Typography para mantener coherencia visual y escalabilidad en componentes.
+
+🧠 Posibles integraciones futuras
+
+🪄 Soporte para Realidad Aumentada con AR.js o Three.js.
+
+📦 Integración con API REST o Firebase.
+
+📱 Conversión a PWA (aplicación progresiva).
+
+🔐 Módulo de autenticación (AuthService + Guards).
+
+👨‍💻 Autor
+
+Ricardo Mejía Santillán
+Ingeniero en Desarrollo y Gestión de Software
+📍 UTOM — Universidad Tecnológica del Oriente de Michoacán
+💼 GitHub
+
+🧾 Licencia
+
+Proyecto distribuido bajo licencia MIT.
+Eres libre de modificarlo, reutilizarlo o adaptarlo para tus propios proyectos con atribución adecuada.
+
+“El código es el lienzo, Angular es el pincel, y las experiencias AR son la nueva forma de arte digital.”
